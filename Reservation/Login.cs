@@ -24,9 +24,15 @@ namespace Reservation
 
         private void LoginBTN_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "demo" && textBox2.Text == "1234")
+            if (staffCheck.Checked && textBox1.Text == "staff" && textBox2.Text == "staff")
             {
                 new main().Show();
+                this.Hide();
+            }
+
+            else if (adminCheck.Checked && textBox1.Text == "admin" && textBox2.Text == "admin")
+            {
+                new ticket().Show();
                 this.Hide();
             }
 

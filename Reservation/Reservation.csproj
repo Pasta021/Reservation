@@ -72,6 +72,12 @@
     <Compile Include="report.Designer.cs">
       <DependentUpon>report.cs</DependentUpon>
     </Compile>
+    <Compile Include="staffMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffMain.Designer.cs">
+      <DependentUpon>staffMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="ticket.cs">
       <SubType>Form</SubType>
     </Compile>

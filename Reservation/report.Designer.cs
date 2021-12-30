@@ -52,7 +52,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Purple;
-            this.label1.Location = new System.Drawing.Point(4, -2);
+            this.label1.Location = new System.Drawing.Point(331, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(132, 37);
             this.label1.TabIndex = 1;
@@ -61,23 +61,23 @@
             // dailyreportBTN
             // 
             this.dailyreportBTN.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dailyreportBTN.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dailyreportBTN.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dailyreportBTN.ForeColor = System.Drawing.Color.Purple;
-            this.dailyreportBTN.Location = new System.Drawing.Point(233, 61);
+            this.dailyreportBTN.Location = new System.Drawing.Point(307, 116);
             this.dailyreportBTN.Name = "dailyreportBTN";
-            this.dailyreportBTN.Size = new System.Drawing.Size(323, 74);
+            this.dailyreportBTN.Size = new System.Drawing.Size(212, 60);
             this.dailyreportBTN.TabIndex = 2;
-            this.dailyreportBTN.Text = "View Daily Report";
+            this.dailyreportBTN.Text = "View Daily";
             this.dailyreportBTN.UseVisualStyleBackColor = false;
             // 
             // weeklyreportBTN
             // 
             this.weeklyreportBTN.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.weeklyreportBTN.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weeklyreportBTN.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.weeklyreportBTN.ForeColor = System.Drawing.Color.Purple;
-            this.weeklyreportBTN.Location = new System.Drawing.Point(233, 248);
+            this.weeklyreportBTN.Location = new System.Drawing.Point(307, 212);
             this.weeklyreportBTN.Name = "weeklyreportBTN";
-            this.weeklyreportBTN.Size = new System.Drawing.Size(323, 74);
+            this.weeklyreportBTN.Size = new System.Drawing.Size(212, 56);
             this.weeklyreportBTN.TabIndex = 3;
             this.weeklyreportBTN.Text = "View Weekly Report";
             this.weeklyreportBTN.UseVisualStyleBackColor = false;

@@ -50,6 +50,8 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +60,7 @@
             this.exitBTN.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.exitBTN.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitBTN.ForeColor = System.Drawing.Color.Purple;
-            this.exitBTN.Location = new System.Drawing.Point(734, 2);
+            this.exitBTN.Location = new System.Drawing.Point(723, 411);
             this.exitBTN.Name = "exitBTN";
             this.exitBTN.Size = new System.Drawing.Size(65, 27);
             this.exitBTN.TabIndex = 0;
@@ -73,7 +75,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(427, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(427, 157);
             this.dataGridView1.TabIndex = 1;
             // 
             // label1
@@ -304,12 +306,43 @@
             this.comboBox3.Size = new System.Drawing.Size(139, 24);
             this.comboBox3.TabIndex = 24;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Purple;
+            this.label10.Location = new System.Drawing.Point(13, 363);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(43, 24);
+            this.label10.TabIndex = 25;
+            this.label10.Text = "Day";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.comboBox4.ForeColor = System.Drawing.Color.Purple;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"});
+            this.comboBox4.Location = new System.Drawing.Point(181, 362);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(139, 24);
+            this.comboBox4.TabIndex = 26;
+            // 
             // ticket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
@@ -365,5 +398,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ComboBox comboBox4;
     }
 }

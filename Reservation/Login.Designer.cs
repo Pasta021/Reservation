@@ -37,6 +37,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.LoginBTN = new System.Windows.Forms.Button();
+            this.staffCheck = new System.Windows.Forms.CheckBox();
+            this.adminCheck = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -125,7 +127,7 @@
             // 
             this.LoginBTN.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginBTN.ForeColor = System.Drawing.Color.Purple;
-            this.LoginBTN.Location = new System.Drawing.Point(604, 278);
+            this.LoginBTN.Location = new System.Drawing.Point(575, 310);
             this.LoginBTN.Name = "LoginBTN";
             this.LoginBTN.Size = new System.Drawing.Size(75, 39);
             this.LoginBTN.TabIndex = 9;
@@ -133,12 +135,36 @@
             this.LoginBTN.UseVisualStyleBackColor = true;
             this.LoginBTN.Click += new System.EventHandler(this.LoginBTN_Click);
             // 
+            // staffCheck
+            // 
+            this.staffCheck.AutoSize = true;
+            this.staffCheck.Checked = true;
+            this.staffCheck.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.staffCheck.Location = new System.Drawing.Point(536, 284);
+            this.staffCheck.Name = "staffCheck";
+            this.staffCheck.Size = new System.Drawing.Size(55, 20);
+            this.staffCheck.TabIndex = 10;
+            this.staffCheck.Text = "Staff";
+            this.staffCheck.UseVisualStyleBackColor = true;
+            // 
+            // adminCheck
+            // 
+            this.adminCheck.AutoSize = true;
+            this.adminCheck.Location = new System.Drawing.Point(639, 284);
+            this.adminCheck.Name = "adminCheck";
+            this.adminCheck.Size = new System.Drawing.Size(67, 20);
+            this.adminCheck.TabIndex = 11;
+            this.adminCheck.Text = "Admin";
+            this.adminCheck.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.adminCheck);
+            this.Controls.Add(this.staffCheck);
             this.Controls.Add(this.LoginBTN);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -169,6 +195,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button LoginBTN;
+        private System.Windows.Forms.CheckBox staffCheck;
+        private System.Windows.Forms.CheckBox adminCheck;
     }
 }
 
